@@ -1,0 +1,716 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(design-space-paper-textured-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 110px;
+    background-color: rgba(30, 13, 77, 0.795);
+    margin-top: -5px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(133, 153, 226);
+    font-size: 1.10rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+.leftsection {
+    font-size: 2.9rem;
+    margin: 30px 0;
+    margin-top: 80px;
+    color: rgba(51, 10, 126, 0.685);
+    
+   
+}
+
+.leftsection .btn {
+    padding: 12px;
+    background-color: transparent;
+    color: rgb(0, 11, 163);
+    border: 2px solid rgba(45, 20, 158, 0.712);
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 1.5s ease;
+}
+
+.leftsection .btn:hover {
+    box-shadow: 20px 20px 20px 20px rgba(38, 9, 116, 0.37) ;
+    width: 28%;
+    cursor: pointer;
+}
+.leftsection button a{
+    text-decoration: none;
+    color: rgb(0, 1, 68);
+    
+}
+
+
+
+.rightsection img {
+    width: 90%;
+    margin-left: 0px;
+    margin-top: -10px;
+    border-color: blueviolet;
+    border-radius: 5px;
+
+}
+.rightsection2 img{
+    width: 90%;
+    margin-top: 170px;
+    margin-left: -20px;
+    border: solid rgba(110, 103, 103, 0.164);
+    transition: 2s ease;
+    
+}
+
+.rightsection2 img:hover{
+    box-shadow: 20px 20px 20px 20px rgba(38, 9, 116, 0.76) ;
+    width: 100%;
+    cursor: pointer;
+}
+
+.purple {
+    color: rgb(214, 170, 23);
+}
+
+#element {
+    color: rgb(214, 170, 23);
+    ;
+}
+
+.secondsection {  
+    padding: 0%;
+    height: 90vh;
+    
+}
+
+
+.ouutline {
+    display: flex;
+    height: 20px;
+    background: rgb(18, 18, 62);
+    font-size: 1.6rem;
+}
+
+.grey2 {
+    color: grey;
+   
+
+}
+
+.secondsection {
+    font-size: 1.6rem;
+    margin-top: -0px;
+    background-image: url(design-space-paper-textured-background.jpg);
+    box-shadow: #010111 10px 10px 10px;
+    
+    
+}
+
+.secondsection .box {
+    background: rgba(63, 19, 146, 0.699);
+    width: 76wh;
+    height: 2px;
+    margin: 56px 0;
+    margin-top: 100px;
+    
+    display: flex;
+}
+
+.text-gray {
+    color: rgb(78, 78, 78);
+    font-size: 2rem;
+    margin-left: 20px;
+    
+}
+
+.secondsection h2{
+          margin-left: 20px;
+          margin-top: 15px;
+          color: #3b2964a4;
+          margin-top: 35px;
+}
+
+.secondsection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: rgba(71, 13, 163, 0.747);
+    margin: 0 105px;
+   
+}
+
+.image-top {
+    width: 60px;
+    position: relative;
+    top: -65px;
+    left: -30px;
+    transition: 2s ease-in-out;
+}
+
+.image-top:hover{
+    box-shadow: 20px 20px 20px rgba(0,0,0,0.20) ;
+    width: 40%;
+}
+
+.vertical-title {
+    position: relative;
+    top: 65px;
+    width: 150px;
+    right: 50px;
+    font-size: 1.2rem;
+    color: #010111;
+    transition: 1.5s ease-in;
+    background-color: #2e267517;
+   
+}
+.vertical-title:hover{
+    box-shadow: 20px 20px 20px rgba(38, 9, 116, 0.76) ;
+    width: 24%;
+    cursor: pointer;
+    
+}
+
+.verticle-desc {
+    position: relative;
+    top: 75px;
+    color: grey;
+    width: 150px;
+    font-size: 9px;
+    right: 50px;
+    cursor: pointer; 
+    margin-top: 20px;
+}
+
+.footer-first {
+    font-size: 1.5rem;
+    margin-top: 50px;
+}
+
+footer {
+    background-color: #0e0e1a;
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+    height: 140px;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer>div {
+    width: 223;
+
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: grey;
+
+}
+.nav1{
+    height: 40px;
+}
+
+/*ABOUT PAGE*/
+
+.aboutmy{
+    width: 700px;
+}
+.aboutmy h1{
+    font-weight: 700;
+    font-size: 2.8rem;
+    color: #000000b0;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.aboutmy p{
+    font-size: 1.4rem;
+    color: rgba(22, 15, 85, 0.856);
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.skillpic{
+    margin-top: -450px;
+    margin-left: 100px;
+    transition: 1.5s ease;
+   
+}
+
+.skillpic:hover{
+    box-shadow: 20px 20px 20px rgba(20, 2, 49, 0.137) ;
+    width: -7%;
+}
+.skillpic .image-top1{
+    width: 6%;
+    margin-left: 700px;
+   
+}
+
+.skillpic .image-top2{
+    width: 6%;
+   
+}
+
+.skillpic .image-top3{
+    width: 6%;
+   
+}
+
+.skillpic .image-top4{
+    width: 6%;
+   
+}
+
+.skillpic .image-top5{
+    width: 6%;
+   
+}
+
+.skillpic .image-top6{
+    width: 6%;
+   
+}
+.rightsection5 img{
+    width: 40%;
+    margin-left: 760px;
+    margin-top: 50px;
+    transition: 1.5s ease;
+}
+
+.rightsection5 img:hover{
+    box-shadow: 20px 20px 20px 20px rgba(38, 9, 116, 0.61) ;
+    width: 41%;
+    cursor: pointer;
+}
+ footer{
+    margin-top: 100px;
+    cursor: pointer;
+    background-color: rgba(30, 13, 77, 0.795);
+ }
+
+/*CONTACT PAGE*/
+
+  #form-details{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 80px;
+    border: 2px solid rgb(139, 143, 143);; 
+    background-image: url(design-space-paper-textured-background.jpg);
+    background-size: cover;
+  }
+  #form-details span{
+    color: #0e0e1a;
+    font-weight: 200;
+  }
+
+  #form-details h1{
+    color: #0e0e1ad0;
+    
+  }
+  #form-details form{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  #form-details{
+    margin-bottom: 25px;
+    margin-top: 25px;
+  }
+  
+  #form-details form input,
+  #form-details form textarea{
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid#E1E1E1;
+    background-color: transparent;
+    border: 2px solid rgb(139, 143, 143);
+  }
+  
+  #form-details form button{
+    background-color: #088178;
+    color: #fff;
+  }
+  
+  #form-details .people div{
+    padding-bottom: 25px;
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  #form-details .people div img{
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+  
+  #form-details .people div p{
+    font-size: 13px;
+    line-height: 25px;
+    cursor: pointer;
+  }
+  
+  #form-details .people div span{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000 ;
+    cursor: pointer;
+  }
+
+  .rightsection6 img{
+    width: 80%;
+    margin-left: 120px;
+    margin-top: -90px;
+  }
+  .rightsection7 img{
+    width: 30%;
+    margin-top: 700px;
+  }
+
+@media (max-width:1000px){
+
+    * {
+        margin: 0;
+        padding: 0;
+       
+    }
+
+    body {
+        background-image: url(design-space-paper-textured-background.jpg);
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        background-repeat: no-repeat;
+        height: fit-content;
+        width: fit-content;
+        
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 250px;
+        background-color: rgb(18, 18, 62);
+        margin-top: -10px;
+        
+       
+    }
+    #nav2{
+        margin-top: 1400px;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+    
+    nav ul li {
+        list-style: none;
+        margin: 0 30px;
+        
+       
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.5rem;
+    }
+    
+
+    .left {
+        font-size: 56px;
+        margin-top: 20px;
+    }
+    
+
+    .firstsection {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .firstsection>div {
+        width: 30%;
+    }
+    
+    .leftsection {
+        font-size: 3rem;
+        margin: 30px 0;
+        margin-top: 100px;
+        margin-left: 50px;
+       
+    }
+    
+    .leftsection .btn {
+        padding: 12px;
+        margin-top: 30px;
+        background-color: transparent;
+        color: rgb(175, 172, 172);
+        border: 2px solid rgb(175, 172, 172);
+        border-radius: 6px;
+        font-size: 1.5rem;
+        cursor: pointer;
+        width: 100px;
+        height: 80px;
+    }
+    .leftsection button a{
+        text-decoration: none;
+    }
+    
+    .rightsection img {
+        width: 150%;
+        margin-top: 80px;
+        margin-left: -100px;
+        
+    
+    }
+    .rightsection2 img{
+        margin-top: 800px;
+        width: 286%;
+       margin-left: -227px;
+       margin-bottom: 80px;
+       box-shadow: 20px 20px 20px 20px rgba(38, 9, 116, 0.76) ;
+
+    }
+
+    .rightsection2 img:hover{
+        width: 286%;
+    }
+    
+    .purple {
+        color: rgb(214, 170, 23);
+    }
+    
+    #element {
+        color: rgb(214, 170, 23);
+        ;
+    }
+
+    .secondsection {
+        font-size: 1.6rem;
+        height: 100vh;
+    }
+
+    .secondsection h2{
+        font-size: 50px;
+    }
+
+    .secondsection .box {
+        flex-direction: column;
+        margin-top: 20px;
+        margin-left: 0px;
+        
+    }
+    #nav2{
+        margin-top: 0%;
+    }
+    
+    .footer{
+        margin-top: 0%;
+       }
+    
+    .text-gray {
+        color: rgb(75, 74, 74);
+        font-size: 2.2rem;
+        
+    }
+    
+    .secondsection .vertical {
+        height: unset;
+        margin-left: 30px;
+        
+    }
+    
+    .image-top {
+        width: 100px;
+        position: relative;
+        top: 50px;
+        left: -23px;
+    }
+
+    .vertical-title {
+    font-size: 30px;
+    left: 30px;
+    top: 0;
+    margin-left: 90px;
+    margin-top: -50px;
+    width: max-content;
+       
+
+       
+
+}
+    
+    .verticle-desc {
+        left: 30px;
+        top: 0;
+        margin-top: 10px;
+        margin-left: 120px;
+        
+    }
+    
+    .footer-first {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    
+    footer {
+        background-color: #0e0e1a;
+        margin-top: 0%;
+    }
+    
+    .footer {
+        display: flex;
+        padding: 10px;
+    }
+    
+    .footer ul {
+        list-style: none;
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    .footer ul li{
+        margin-top: 10px;
+    }
+    
+    .footer>div {
+        width: 223;
+    
+    }
+    
+    /*About section*/
+
+    
+    .aboutmy{
+        margin-top:80px;
+    }
+
+    .aboutmy p{
+       margin-top: 20px;
+    }
+    
+    .skillpic{
+       width: 1px;
+    
+    }
+    
+    .rightsection5 img{
+        margin-left: 80px;
+        margin-top: 400px;
+        width: 82%;
+        margin-bottom: 200px;
+        box-shadow: 20px 20px 20px 20px rgba(38, 9, 116, 0.76) ;
+    }
+    .rightsection5 img:hover{
+        width: 82%;
+        box-shadow: 20px 20px 20px 20px rgba(38, 9, 116, 0.76) ;
+
+    }
+
+    /*CONTACT SECTION*/
+
+    .rightsection6 img{
+        width: 200%;
+        margin-top: 1000px;
+        margin-left: -300px;
+    }
+
+    #form-details {
+        display: flex;
+        justify-content: space-between;
+        margin: 0px;
+        padding: 80px;
+        border: 2px solid rgb(139, 143, 143);
+        background-image: url(design-space-paper-textured-background.jpg);
+        background-size: cover;
+    }
+        #form-details span{
+            font-size: 50px;
+            width: max-content;
+            margin-bottom: 20px;
+        }
+
+        #form-details h1{
+            font-size: 45px;
+            width: max-content;
+            margin-bottom: 20px;
+        }
+
+        #form-details form textarea{
+           margin-bottom: 40px;
+        }
+        #form-details form input,
+        #form-details form textarea{
+            margin-bottom: 50px;
+            margin-top: 50px;
+            height: 50px;
+            font-size: 3rem;
+            margin-left: 60px;
+            width: 120%;
+        }
+
+        #form-details form button{
+            width: 47%;
+            height: 50px;
+            margin-left: 165px;
+            margin-top: 100px;
+            font-size: 2rem;
+        }
+    
+}
